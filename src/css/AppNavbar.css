@@ -1,0 +1,17 @@
+.app-navbar {
+    background-color: #4682b4; /* Navbar background color */
+    padding: 10px; /* Add padding to the navbar */
+  }
+  
+  .app-brand {
+    color: #fff !important; /* Navbar brand text color */
+  }
+  
+  .dropdown-menu {
+    background-color: #4682b4 !important; /* Dropdown menu background color */
+  }
+  
+  .dropdown-item {
+    color: #fff !important; /* Dropdown item text color */
+  }
+  

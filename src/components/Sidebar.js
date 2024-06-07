@@ -1,13 +1,13 @@
-// src/components/Sidebar.js
 import React from 'react';
 import { Nav } from 'react-bootstrap';
+import '../css/Sidebar.css'; // Import custom CSS file for styling
 
 const Sidebar = () => {
   return (
-    <div className="bg-dark text-white" style={{ height: '100vh', width: '200px', position: 'fixed' }}>
+    <div className="sidebar-container">
       <Nav defaultActiveKey="/home" className="flex-column">
-        <Nav.Link href="/home" className="text-white">Home</Nav.Link>
-        <Nav.Link href="/link" className="text-white">Link</Nav.Link>
+        <Nav.Link href="/home" className="sidebar-link">Home</Nav.Link>
+        <Nav.Link href="/user" className="sidebar-link">User</Nav.Link>
       </Nav>
     </div>
   );

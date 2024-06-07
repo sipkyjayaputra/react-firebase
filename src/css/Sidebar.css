@@ -1,0 +1,26 @@
+.sidebar-container {
+  background-color: #357edd; /* Soft blue background color */
+  height: 100vh;
+  width: 200px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sidebar-link {
+  color: #fff; /* Text color */
+  font-size: 1.2rem;
+  text-decoration: none;
+  line-height: 2; /* Adjust line height for better spacing */
+  width: 200px;
+  display: block; /* Ensure it takes up the entire width */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  padding: 5px 10px; /* Add padding */
+}
+
+.sidebar-link:hover {
+  background-color: #1e6bcf; /* Hover background color */
+  border-radius: 5px;
+}

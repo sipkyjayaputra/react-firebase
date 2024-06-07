@@ -1,11 +1,11 @@
 import React from 'react';
-import AppNavbar from './Navbar';
+import AppNavbar from './AppNavbar';
 import Sidebar from './Sidebar';
 
-const Layout = ({ children }) => {
+const Layout = ({ children, authenticatedUser }) => {
   return (
     <div>
-      <AppNavbar />
+      <AppNavbar authenticatedUser={authenticatedUser} />
       <div style={{ display: 'flex' }}>
         <Sidebar />
         <div style={{ marginLeft: '200px', padding: '20px', width: '100%' }}>
